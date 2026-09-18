@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bandera de México</h1>
+
+    <div class="flag-container">
+        <div class="column">
+            <p class="label">Esperanza</p>
+            <input type="range" id="green" min="0" max="255" value="0">
+            <p class="hex" id="greenHex">#000000</p>
+            <div class="color-box" id="greenBox"></div>
+        </div>
+
+        <div class="column center">
+            <p class="label">Unidad</p>
+            <p class="hex">#FFFFFF</p>
+            <div class="color-box white-box">
+                <div class="shield">🦅</div>
+            </div>
+        </div>
+
+        <div class="column">
+            <p class="label">Sangre de nuestros héroes nacionales</p>
+            <input type="range" id="red" min="0" max="255" value="0">
+            <p class="hex" id="redHex">#000000</p>
+            <div class="color-box" id="redBox"></div>
+        </div>
+    </div>
+
+    <p class="names">Martínez Trujillo Eduardo</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
